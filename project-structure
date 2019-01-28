@@ -1,0 +1,69 @@
+.
+├── babel.config.js
+├── package.json
+├── postcss.config.js
+├── public - 系统入口html及ico文件
+├── README.md
+├── src
+│   ├── App.vue
+│   ├── assets
+│   ├── axios
+│   ├── components
+│   │   ├── base - 跨项目的基础组件库
+│   │   │   ├── form-component
+│   │   │   ├── language
+│   │   │   ├── number-input
+│   │   │   ├── page-tag-controller
+│   │   │   ├── searchable-input
+│   │   │   ├── sidebar
+│   │   │   ├── simple-form
+│   │   │   └── simple-table
+│   │   ├── bussiness - 针对项目的业务组件库
+│   │   ├── index.js
+│   │   ├── salmon-ui.js
+│   │   └── util - 组件中常用的工具类
+│   ├── config - 请求路径及其它配置项
+│   ├── dictionary - 字典翻译方法
+│   ├── i18n - 系统多语言配置
+│   ├── main.js - 系统入口文件
+│   ├── permission - 资源权限配置
+│   ├── router - 前端路由配置
+│   ├── store - vuex
+│   ├── styles - 系统级别css
+│   ├── utils - 常用工具类
+│   └── views - 业务代码
+│       ├── dashboard
+│       │   ├── Home.auth.vue
+│       │   ├── Home.unauth.vue
+│       ├── Home.vue
+│       ├── Login.vue
+│       ├── MainView.vue
+│       ├── Ready.vue
+│       └── system
+│           ├── department
+│           │   ├── detail.vue
+│           │   └── list.vue
+│           ├── dictionary
+│           │   ├── detail.vue
+│           │   └── list.vue
+│           ├── i18n.js
+│           ├── menu
+│           │   ├── detail.vue
+│           │   └── list.vue
+│           ├── office
+│           │   ├── accountDetail.vue
+│           │   ├── detail.vue
+│           │   └── list.vue
+│           ├── parameter
+│           │   ├── detail.vue
+│           │   └── list.vue
+│           ├── role
+│           │   ├── detail.vue
+│           │   └── list.vue
+│           └── user
+│               ├── detail.vue
+│               └── list.vue
+├── tests
+│   ├── e2e - e2e测试用例
+│   └── unit - 单元测试用例
+└── vue.config.js - vue工程常用配置及编写第三方引入插件配置
